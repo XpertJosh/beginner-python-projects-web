@@ -1,0 +1,22 @@
+{
+  "name": "beginner-python-projects-web",
+  "version": "1.0.0",
+  "description": "Code for a website that will display guides for beginner python projects.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XpertJosh/beginner-python-projects-web.git"
+  },
+  "author": "Josh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XpertJosh/beginner-python-projects-web/issues"
+  },
+  "homepage": "https://github.com/XpertJosh/beginner-python-projects-web#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
