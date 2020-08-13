@@ -1,8 +1,8 @@
 let headerBar = document.getElementById('headerBar');
 headerBar.classList.add('header', 'row')
 
-let list = document.createElement('ul');
-headerBar.appendChild(list);
+let headerList = document.createElement('ul');
+headerBar.appendChild(headerList);
 
 let refs = [
     {ref: "/", name: 'Home'},
@@ -13,7 +13,7 @@ let refs = [
 
 for (let i = 0; i < refs.length; i++) {
     let li = document.createElement('li');
-    list.appendChild(li);
+    headerList.appendChild(li);
     li.classList.add('col-s-6', 'col-3');
 
     let link = document.createElement('a');
