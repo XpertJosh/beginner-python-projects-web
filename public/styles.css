@@ -1,0 +1,63 @@
+/* Navigation bar settings
+ul.navList {
+    list-style-type: none;
+    overflow-y: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: #e84855;
+}
+
+.navList {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+@media only screen and (min-width: 768px) {
+    ul.navList {
+        height: calc(100% - 30px);
+    }
+}
+
+ul.navList > li {
+    text-align: center;
+    padding: 6px;
+}
+
+ul.navList > li > a {
+    font-size: 24px;
+    color: white;
+    padding: 6px;
+    margin: 0px;
+}
+
+ul.navList > li > hr {
+    margin: 4px auto;
+    width: 80%;
+    border: 1px solid #d12923;
+}
+*/
+
+/* Content styles */
+#homepageContent > h1 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#homepageContent > p {
+    font-size: 18px;
+}
+
+#homepageContent > a {
+    /* color: black; */
+    font-size: 18px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.noScroll::-webkit-scrollbar {
+    display: none;
+}
