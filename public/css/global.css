@@ -1,9 +1,8 @@
-/* Makes it so that padding and margin is included in width and height */
+/* Grid view */
 * {
     box-sizing: border-box;
-}
+} /* Makes it so that padding and margin is included in width and height */
 
-/* Columns */
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
