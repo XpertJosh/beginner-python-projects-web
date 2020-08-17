@@ -11,21 +11,26 @@ app.listen(port, () => {
     console.log(`App listening on port ${port}.`);
 });
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public'));
-});
+app.get('/:file', (req, res) => {
+    let file = req.params.file;
+    res.sendFile(path.join(__dirname, 'public/', file));
+})
 
-app.get('/projects', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/projects'));
-});
+// app.get('/', (req, res) => {
+//     res.sendFile(path.join(__dirname, 'public'));
+// });
 
-app.get('/tips', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/tips'));
-});
+// app.get('/projects', (req, res) => {
+//     res.sendFile(path.join(__dirname, 'public/projects'));
+// });
 
-app.get('/resources', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/resources'));
-});
+// app.get('/tips', (req, res) => {
+//     res.sendFile(path.join(__dirname, 'public/tips'));
+// });
+
+// app.get('/resources', (req, res) => {
+//     res.sendFile(path.join(__dirname, 'public/resources'));
+// });
 
 app.get('/resources/topics', (req, res) => {
     res.sendfile(path.join(__dirname, 'public/resources/topics'))
