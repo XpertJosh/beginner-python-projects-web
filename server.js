@@ -27,6 +27,10 @@ app.get('/resources', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/resources'));
 });
 
+app.get('/resources/topics', (req, res) => {
+    res.sendfile(path.join(__dirname, 'public/resources/topics'))
+})
+
 app.get('/resources/topics/:topic', (req, res) => {
     let topic = req.params.topic;
     let resources = fs.readdirSync(path.join(__dirname, 'public/resources/topics/'));
