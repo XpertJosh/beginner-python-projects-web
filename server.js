@@ -16,22 +16,6 @@ app.get('/:file', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/', file));
 })
 
-// app.get('/', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'public'));
-// });
-
-// app.get('/projects', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'public/projects'));
-// });
-
-// app.get('/tips', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'public/tips'));
-// });
-
-// app.get('/resources', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'public/resources'));
-// });
-
 app.get('/resources/topics', (req, res) => {
     res.sendfile(path.join(__dirname, 'public/resources/topics'))
 })
