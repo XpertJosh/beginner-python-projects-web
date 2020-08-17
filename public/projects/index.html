@@ -2,17 +2,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/textStyles.css">
     <title></title>
 </head>
 <body>
     <div id="headerBar">
         <!-- header.js will create the header here. -->
     </div>
+    <div class="row">
+        <div class="col-12">
+            <h1>Description</h1>
+            <p>
+                This page contains a link to python projects designed for beginners. The purpose of these projects 
+                is to allow beginners to learn the fundamentals themselves through practice instead of theory. Each project
+                will focus around a principal feature. It is recommended that you complete these in ascending order, as they
+                are listed in ascending difficulty.
+            </p>
+        </div>
+        <div class="col-12">
+            <h1>Note:</h1>
+            <p>It is recommended that you do the following before you begin the projects: </p>
+            <ul>
+                <li><p>Read the 'tips' page,</p></li>
+                <li><p>Familiarize yourself with the resources listed in the resource page.</p></li>
+            </ul>
+        </div>
+        <div class="col-12" id="projectsList">
+            <h1>Links to projects: </h1>
+        </div>
+    </div>
     <div id="footerBar">
         <!-- footer.js will create the footer here. -->
     </div>
     <script src="../scripts/header.js"></script>
     <script src="../scripts/footer.js"></script>
+    <script src="./projectList.js"></script>
 </body>
 </html>

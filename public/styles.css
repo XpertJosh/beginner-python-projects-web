@@ -41,23 +41,4 @@ ul.navList > li > hr {
     border: 1px solid #d12923;
 }
 */
-
-/* Content styles */
-#homepageContent > h1 {
-    font-size: 30px;
-    text-decoration: underline;
-}
-
-#homepageContent > p {
-    font-size: 18px;
-}
-
-#homepageContent > a {
-    /* color: black; */
-    font-size: 18px;
-}
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-.noScroll::-webkit-scrollbar {
-    display: none;
-}
+/*  */
