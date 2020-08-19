@@ -8,7 +8,7 @@ app.use(express.static('public'));
 // app.use('/static', express.static(path.join(__dirname, 'public')));
 
 app.listen(port, () => {
-    console.log(`App listening on port ${port}.`);
+    console.log(`App listening at http://localhost:${port}.`);
 });
 
 app.get('/:file', (req, res) => {
